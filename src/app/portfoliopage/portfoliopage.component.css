@@ -1,0 +1,9 @@
+.port-button{
+    width: 141px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    appearance: none;
+    border: none;
+    color: white; 
+}

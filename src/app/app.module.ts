@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { PortfoliopageComponent } from './portfoliopage/portfoliopage.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     LoginComponent,
     SignupComponent,
     SidebarComponent,
+    PortfoliopageComponent,
   
   ],
   imports: [
