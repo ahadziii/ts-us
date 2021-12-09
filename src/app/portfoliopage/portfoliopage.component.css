@@ -5,5 +5,15 @@
     border-radius: 4px;
     appearance: none;
     border: none;
-    color: white; 
+    color: white;
+}
+.customModal{
+  position: fixed;
+  top: 20%;
+  right: 15%;
+}
+.wrapper{
+  width: 100%;
+padding: 70px 100px;
+overflow:scroll;
 }

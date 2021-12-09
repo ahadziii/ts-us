@@ -7,6 +7,9 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { PortfoliopageComponent } from './portfoliopage/portfoliopage.component';
+import { PortfoliomodalComponent } from './portfoliomodal/portfoliomodal.component';
+import { AddProductModalComponent } from './add-product-modal/add-product-modal.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { PortfoliopageComponent } from './portfoliopage/portfoliopage.component'
     SignupComponent,
     SidebarComponent,
     PortfoliopageComponent,
+    PortfoliomodalComponent,
+    AddProductModalComponent,
+    HeaderComponent,
   
   ],
   imports: [
