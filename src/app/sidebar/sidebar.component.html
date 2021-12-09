@@ -32,7 +32,9 @@
         </div>
     </div>
         <div>
-            <button class="bg-primary app-button"   type="submit" >Create Portfolio</button>
+            <button class="bg-primary app-button" (click)=showPortModal()  type="submit" >Create Portfolio</button>
         </div>
     </div>
 </div>
+
+<app-portfoliomodal [isPortModal]=isPortModal></app-portfoliomodal>

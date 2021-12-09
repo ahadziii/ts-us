@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfoliopageComponent implements OnInit {
   isModal:boolean =false;
-  openStatus: boolean;
   constructor() { }
 
   products = ["MSFT","AAPL","GOOGL,"]
@@ -21,5 +20,6 @@ export class PortfoliopageComponent implements OnInit {
   hideModal(){
     this.isModal = false;
   }
+
 
 }

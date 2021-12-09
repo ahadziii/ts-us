@@ -6,16 +6,14 @@ import { Component, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./portfoliomodal.component.css']
 })
 export class PortfoliomodalComponent implements OnInit {
- @Input() isModal:boolean = false;
- @Output() openStatus:boolean = this.isModal;
-
+  @Input() isPortModal:boolean = false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  hideModal(){
-    this.isModal = false;
+  hidePortModal(){
+    this.isPortModal = false;
   }
-
 }
+
